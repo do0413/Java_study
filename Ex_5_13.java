@@ -13,7 +13,7 @@ public class Ex_5_13 {
 		
 		for(int i=0; i<words.length; i++) {
 			char[] question = words[i].toCharArray();
-			//System.out.println(words[i].toCharArray());
+			
 			for(int j=0; j<question.length; j++) {
 				char num1 =question[j];
 				int num2= (int)(Math.random()*question.length);
